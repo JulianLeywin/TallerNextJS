@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.light {
+    background-color: #f3f4f6;
+    color: #1f2937;
+}
+
+.dark {
+    background-color: #1f2937;
+    color: #f3f4f6;
+}
